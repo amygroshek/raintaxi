@@ -1,0 +1,58 @@
+/*
+ * you-can-change.css
+ * Amy Groshek, 2011.07.02
+ */
+
+/* 
+ * INDEXBOX CONTENT 
+ * This is where it's appropriate to change things like color of fonts and font styling -- not at the page level.
+ */
+
+#content {
+	/* Change this image to update side banner */
+	background: #ffffff url('images/62side-banner.jpg') repeat-y;
+}
+
+.indexbox h1 {
+	color: #388d4c;
+}
+.indexbox h2 {
+	color: #7c5722;
+}
+.indexbox h3 {
+	color: #5083ad;
+	text-transform:uppercase;
+}
+.indexbox h4 {
+	font-weight: 700;
+	text-align:justify;
+	color: #388d4c;
+}
+.indexbox h5 {
+	/* 	font-style:italic; */
+	/* You should never use italics or underline on the Web. :( It decreases readability by some garish percentage which is actually measurable in studies. */
+	color: #2b4f25;
+	margin: 4px;
+}
+.indexbox h6 {
+	color: #3d3850;
+	margin: 4px;
+	text-align:justify;
+}
+.indexbox h7 {
+}
+.indexbox h8 {
+  color: #7274e4a;
+	text-align:center;
+}
+.indexbox .announcement .meta {
+/*	color: #addyourcolorhereifyoureallyneedtochangethis; */
+}
+.indexbox .announcement p {
+/*	color: #addyourcolorhereifyoureallyneedtochangethis; */
+}
+
+
+/*
+ * END INDEXBOX 
+ */
