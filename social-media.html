@@ -1,43 +1,49 @@
 <div class="actionIcons">
-	<!--	<div id="likeonfb"> 
-		<a href="http://www.facebook.com/raintaxi" title="Like Rain Taxi on Facebook" target="_blank"><img src="images/fb-like.png" style="" alt="Like us on Facebook!" width="51" height="24" /></a> Like us on Facebook!</div>-->
-	<div id="likeonfb"> 
-		<div class="clickicon" title="Like Rain Taxi on Facebook"></div> 
-		<div class="icontext">Like us on Facebook!</div>
-	</div>
-	<!-- <div id="followontwitter"><a href="http://www.twitter.com/RainTaxiReview" title="Follow Rain Taxi on Twitter" target="_blank"><img src="images/twitter-follow.png" alt="Follow us on Twitter!" width="60" height="20"></a>Follow us on Twitter!
-	</div>-->
-	<div id="followontwitter"> 
-		<div class="clickicon" title="Follow Rain Taxi on Twitter"></div> 
-		<div class="icontext">Follow us on Twitter!</div>
-	</div>
-	<div id="joinmailinglist">
-		<div class="clickicon" title="Join our mailing list!"></div>
-		<!-- <a href="contact.shtml" target="_blank">
-			<div id="mailinglisticon"></div>
-		</a>-->
-		<div id="icontext" class="icontext">Join our mailing list!</div>
-	</div>
-	<div id="donate"> 
-		<div class="clickicon" title="Donate to Rain Taxi"></div> 
-		<div class="icontext">Donate to Rain Taxi!</div>
-	</div>
-	<div id="search-form">
-		<form class="searchform" method="GET" action="http://www.google.com/custom">
-			<input type="text" value="Search Rain Taxi..." name="q" width="10" id="s" title="Search Rain Taxi" />
-			<input type="submit" class="button rtgradient" alt="submit" id="searchsubmit" name=sa value="Go!" />
-			<input type=hidden name=cof value="LW:720;L:http://www.raintaxi.com/images/google-banner.gif;LH:86;AH:center;S:http://www.raintaxi.com;AWFID:96ed5add98b41ee9;">
-			<input type=hidden name=domains value="raintaxi.com">
-			<br>
-			<input type=hidden name=sitesearch value="raintaxi.com">
-		</form>
-	</div>
+    <a id="likeonfb" href="http://www.facebook.com/raintaxi" title="Like Rain Taxi" target="_blank"> 
+        <div class="clickicon" title="Like Rain Taxi on Facebook"></div> 
+        <div class="icontext">Like us on Facebook!</div>
+    </a>
+    <a id="followontwitter" href="http://www.twitter.com/RainTaxiReview" title="Follow Rain Taxi" target="_blank"> 
+        <div class="clickicon" title="Follow Rain Taxi on Twitter"></div> 
+        <div class="icontext">Follow us on Twitter!</div>
+    </a>
+    <a id="joinmailinglist" href="contact.shtml" target="_blank" title="Join Rain Taxi Mailing List">
+        <div class="clickicon" title="Join our mailing list!"></div>
+        <div id="icontext" class="icontext">Join our mailing list!</div>
+    </a>
+    <a id="donate" href="support.shtml" target="_blank" title="Support Rain Taxi"> 
+        <div class="clickicon" title="Donate to Rain Taxi"></div> 
+        <div class="icontext">Donate to Rain Taxi!</div>
+    </a>
+    <div id="search-form">
+        <div id="cse" style="width: 100%;">Loading</div>
+        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script type="text/javascript"> 
+            google.load('search', '1', {language : 'en'});
+            google.setOnLoadCallback(function() {
+                var customSearchControl = new google.search.CustomSearchControl('013786558541496960493:a7wjgj4r-ou');
+                customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+                customSearchControl.draw('cse');
+            }, true);
+        </script>
+        <!-- $<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" /> -->
+        <style type="text/css">
+        </style>
+        <!--	<form class="searchform" method="GET" action="http://www.google.com/custom">
+            <input type="text" value="Search Rain Taxi..." name="q" width="10" id="s" title="Search Rain Taxi" />
+            <input type="submit" class="button rtgradient" alt="submit" id="searchsubmit" name=sa value="Go!" />
+            <input type=hidden name=cof value="LW:720;L:http://www.raintaxi.com/images/google-banner.gif;LH:86;AH:center;S:http://www.raintaxi.com;AWFID:96ed5add98b41ee9;">
+            <input type=hidden name=domains value="raintaxi.com">
+            <br>
+            <input type=hidden name=sitesearch value="raintaxi.com">
+        </form> -->
+    </div>
 </div>
 <div class="featuredeventsbtn">
-	<div id="gobookfest">
-		<a href="/bookfest/" class="button rtgradient" title="Go to Twin Cities Book Festival"><div class="icon"></div>Twin Cities<br /> Book Festival</a>
-	</div>
-	<div id="golitcal">
-		<a href="/twincitiesliterarycalendar.shtml" class="button rtgradient" title="Go to Twin Cities Book Festival"><div class="icon"></div>Twin Cities<br /> Literary Calendar</a>
-	</div>
+    <div id="gobookfest">
+        <a href="/bookfest/" class="button rtgradient" title="Go to Twin Cities Book Festival"><div class="icon"></div>Twin Cities<br /> Book Festival</a>
+    </div>
+    <div id="golitcal">
+        <a href="/twincitiesliterarycalendar.shtml" class="button rtgradient" title="Go to Twin Cities Book Festival"><div class="icon"></div>Twin Cities<br /> Literary Calendar</a>
+    </div>
 </div>
