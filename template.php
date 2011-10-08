@@ -7,6 +7,7 @@
 	<head>
 		<link rel="stylesheet" href="css/master.css" />
 		<link rel="stylesheet" href="css/you-can-change.css" />
+		<link href="css/print.css" type="text/css" rel="stylesheet" media="print">
 		<link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold&v1" rel="stylesheet" type="text/css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>R A I N T A X I Review of Books</title>
@@ -14,7 +15,9 @@
 	<body>
 		<div id="bodyParent">
 			<div id="bannerIndex">
-				<a href="/index.html" target="_top">	<div id="bannerFloat">
+				<div id="printHeader">Rain Taxi Review of Books</div>
+				<a href="/index.html" target="_top">	
+					<div id="bannerFloat">
 						<div id="bannerParent">
 							<div id="bannerLeft">RAIN TAXI</div>
 							<div id="bannerCenter"></div>
