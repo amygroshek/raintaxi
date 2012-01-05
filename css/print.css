@@ -16,25 +16,14 @@ body {background:none;}
 background: none;
 width: 95%;
 }
-#bannerFloat { display: none;}
+#bannerCenter { width:0px;margin:5px;height:40px; }
+#bannerLeft { font-size: 40px;margin-top: 20px; }
+#bannerRight { margin-top: 20px; }
+#container { border-top: none; }
+#bannerIndex { border-bottom:none;  }
+#navMenu { display:none; }
+
+#content a.button { display:none; }
+
 #bannerIndex { background: none; margin-top: 30px; font-weight: bold;}
 #printHeader { display: inline; margin-top: 20px; background-color: none; color: #444; font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;font-size:22pt;}
-/* #bannerLeft {
-	text-transform: lowercase;
-	text-transform: capitalize;
-font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
-font-size: 36px;
-margin-top: 40px;
-} */
-
-
-/* #bannerFloat {
-margin-left: 15px;
-margin-top: 10px;
-}
-#bannerParent {
-float: left;
-position: relative;
-left: 0%;
-list-style-type: none;
-} */

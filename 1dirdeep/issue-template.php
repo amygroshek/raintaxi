@@ -5,9 +5,10 @@
 <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 	<head>
-		<link rel="stylesheet" href="../../css/master.css" />
-		<link rel="stylesheet" href="../../css/you-can-change.css" />
-		<link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold&v1" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="../css/master.css" />
+		<link rel="stylesheet" href="../css/you-can-change.css" />
+                <link  href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold&v1" rel="stylesheet" type="text/css" />
+		<link href="../css/print.css" type="text/css" rel="stylesheet" media="print" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>R A I N T A X I Review of Books</title>
 	</head>
@@ -22,7 +23,7 @@
 						</div>
 					</a>
 				</div>
-				<?php include("../../nav-menu.html"); ?>
+				<?php include("../nav-menu.html"); ?>
 			</div>
 			<div id="container">
 				<div id="content">
@@ -54,7 +55,7 @@
 				</div>
 			</div>
 			<div id="floatbox1">
-				<?php include("../../social-media.html"); ?>
+				<?php include("../social-media.html"); ?>
 			</div>
 			<div id="footer-cont">
 				<!-- Change the text inside the tag below. -->
@@ -63,7 +64,7 @@
 			</div>
 		</div>
 		</div>
-<script type="text/javascript" src="../../scripts/jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="../../scripts/rt-custom.js"></script>
+<script type="text/javascript" src="../scripts/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="../scripts/rt-custom.js"></script>
 </body>
 </html>

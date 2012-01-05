@@ -35,11 +35,9 @@ jQuery(document).ready( function($) {
     };
     changePr.timer();
 
-console.log('log');
     $('input.gsc-input').focus( function(e) {
 		console.log(e);
         console.log('focus');
     });
-console.log('log2');
 
 });

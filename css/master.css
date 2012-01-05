@@ -402,7 +402,7 @@ box-shadow: 0 0 1px #888;
     padding: 0px;
     background-color: #8CFECD;
     display: block;
-    margin-top: 15px;
+    margin-top: 20px;
     border-bottom:1px solid #999;
     behavior: url(scripts/PIE.htc);
 }
@@ -483,13 +483,6 @@ box-shadow: 0 0 1px #888;
     position: relative;
     background: #fff;
     overflow: hidden;
-    /*	border-radius: 5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius: 5px;
-    -moz-box-shadow: 0 0 5px #888;
-    -webkit-box-shadow: 0 0 5px#888;
-    box-shadow: 0 0 5px #888;
-    behavior: url(scripts/PIE.htc);*/
 }
 #content {
     margin: 15px;
@@ -511,6 +504,7 @@ box-shadow: 0 0 1px #888;
 .indexbox {
     margin-left: 125px;
     padding-top: 20px;
+    min-height: 500px;
 }
 .indexbox .announcement .meta {
     font-size: 20px;
@@ -574,67 +568,17 @@ text-decoration:none;
     outline: none;
     cursor: pointer;
     text-align: center;
-    /*
-    padding: .5em 2em .55em;
-    text-shadow: 0 1px 1px rgba(0,0,0,.3);
-    -webkit-border-radius: .5em; 
-    -moz-border-radius: .5em;
-    border-radius: .5em;
-    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.2);
-    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.2);
-    box-shadow: 1px 1px 3px rgba(0,0,0,.2);*/
 }
 a.button:hover {
     text-decoration: none;
 }
 .button:hover {
     text-decoration: none;
-  /*  -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.2);
-    -moz-box-shadow: 1px 1px 5px rgba(0,0,0,.2);
-    box-shadow: 1px 1px 5px rgba(0,0,0,.2);*/
 }
 .button:active {
     position: relative;
     top: 1px;
-}/*
-.rtgradient {
-    border: solid 1px #ccc;
-    background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0.58, rgb(195,250,226)),
-    color-stop(0.27, rgb(140,254,205)),
-    color-stop(0.96, rgb(140,254,205))
-    );
-    background-image: -moz-linear-gradient(
-    center top,
-    rgb(195,250,226) 58%,
-    rgb(140,254,205) 27%,
-    rgb(140,254,205) 96%
-    );
-
 }
-.rtgradient:hover {
-    background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0.39, rgb(195,250,226)),
-    color-stop(0.27, rgb(180,250,220)),
-    color-stop(0.96, rgb(140,254,205))
-    );
-    background-image: -moz-linear-gradient(
-    center top,
-    rgb(195,250,226) 39%,
-    rgb(180,250,220) 27%,
-    rgb(140,254,205) 96%
-    );
-}
-.rtgradient:active {
-
-}
-*/
 .dropshadow {
 
     -moz-box-shadow: 1px 1px 5px #888;
@@ -674,11 +618,6 @@ a.button:hover {
 	top:1px;
 }
 
-
-
-
-
-
 /*
  * End button formatting 
  */
@@ -694,34 +633,11 @@ a.button:hover {
     width: auto;
     position:relative;
     left:-50%;
-    /* margin-bottom: 5px;
-    padding:5px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #8CFECD;
-    -moz-box-shadow: 1px 1px 5px #888;
-    -webkit-box-shadow: 1px 1px 5px#888;
-    box-shadow: 1px 1px 5px #888;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    behavior: url(scripts/PIE.htc);*/
 }
 .indexbox .announcement .goanddo:hover {
-    /*	background-color: #B1FADB;
-    color: #666;
-    -moz-box-shadow: 1px 1px 3px #888;
-    -webkit-box-shadow: 1px 1px 3px #888;
-    box-shadow: 1px 1px 3px #888;
-    behavior: url(scripts/PIE.htc);*/
 }
 
 .indexbox .announcement .goanddo:active {
-    /*	background-color: #8CFECD;
-    -moz-box-shadow: 1px 1px 1px #888;
-    -webkit-box-shadow: 1px 1px 1px #888;
-    box-shadow: 1px 1px 1px #888;
-    behavior: url(scripts/PIE.htc);*/
 }
 .indexbox .announcement p {
     margin-top: 5px;
@@ -1381,41 +1297,5 @@ a.gsc-trailing-more-results:link {
     font-size: 12px;
 }
 
-/* #banner {
-margin: 0px 10px 5px 0px;
-padding: 0px;
-min-width:938px;
-height: 100px;
-max-width:938px;
-width:938px; 
-height: 100px;
-}
-    #banner img {
-    border: 0;
-}
-    .bannerimg {
-    float: left;
-    border: 0;
-}
-    #navbar {
-    margin: 3px 10px 0px 600px;
-    padding: 0px;
-    text-align:center;
-}*/
-/*.spaced SUB, .spaced SUP {
-line-height: 0;
-}
-    #administrativa a {
-    margin: 2px auto;
-    display: block;
-    margin-bottom: 3px;
-}
-    #administrativa h3 {
-    text-align: center;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    text-transform:none;
-    border-bottom-style: double;
-    font-weight: 500;
-}*/
 /* End ancillary */
 
